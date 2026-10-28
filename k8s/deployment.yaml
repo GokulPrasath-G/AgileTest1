@@ -13,8 +13,8 @@ spec:
         app: campus-app
     spec:
       containers:
-        - name: campus-container1
-          image: koushick25/koureesh:v1
+        - name: campus-container
+          image: gokulprasathg/agiletest:v1
           ports:
             - containerPort: 5000
 
